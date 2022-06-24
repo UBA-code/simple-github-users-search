@@ -1,0 +1,29 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #f1f8fd;
+  height: 100vh;
+  text-align: center;
+}
+img.avatar {
+  border-radius: 10px;
+  width: 250px;
+}
+p {
+  font-size: 18px;
+  color: #0f1f24;
+  padding: 5px;
+}
+.search-area {
+  margin-bottom: 30px;
+}
+.msg {
+  display: none;
+}
